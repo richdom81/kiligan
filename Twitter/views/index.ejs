@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form action="/send" method="POST">
+    <input type="text" length="140" name="tweet">
+    <input type="submit" value="Tweet">
+    </form>
+  </body>
+</html>
